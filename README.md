@@ -36,7 +36,7 @@ npm install create-react-app -g
 create-react-app <project-name>
 ```
 
-### Folder Structuring :
+## Folder Structuring :
 ---
 
 - "node_modules" : it contains all the dependency installed.
@@ -44,6 +44,11 @@ create-react-app <project-name>
     - favicon.ico
     - index.html (contains div with id="root")
     - manifest.json
-- "src" : index.js (we speacify the root components which is <App /> component and DOM element contain 'root' id which will be controlled by React.)
+- "src" : index.js (we speacify the root components which is named as <App /> component and DOM element contain 'root' id which will be controlled by React.)
 - When we run "npm start" command in terminal, the browser will serve index.html present in "public" folder.
 
+## Types of Component:
+---
+
+- Stateless function
+- Stateful class (it contains render method which returns HTML.)
