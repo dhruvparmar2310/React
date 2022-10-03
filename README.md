@@ -37,7 +37,6 @@ create-react-app <project-name>
 ```
 
 ## Folder Structuring :
----
 
 - "node_modules" : it contains all the dependency installed.
 - "public" : it contains three files 
@@ -48,7 +47,24 @@ create-react-app <project-name>
 - When we run "npm start" command in terminal, the browser will serve index.html present in "public" folder.
 
 ## Types of Component:
----
 
 - Stateless function
 - Stateful class (it contains render method which returns HTML.)
+
+## Difference of Functional and Class Component :
+
+1. Functional Component :
+
+- It is simple function.
+- use functional component as much as possible.
+- the main advantage to use functional component is "Absence of 'this' keyword".
+- It is mainly responsible for UI.
+- It is Stateless Component.
+
+2. Class Component :
+
+- More feature rich.
+- It maintain their own private data.
+- It has complex UI logics
+- It provides lifecycle hooks.
+- It is Stateful Class.
