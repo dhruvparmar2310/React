@@ -76,3 +76,11 @@ Hooks are the new feature proposal which lets you use states and other react fea
 ## What is JSX?
 
 Javascript XML (JSX) - it is the extension to Javascript language syntax. JSX tags as a tag name, attributes and children. It is not necessary to write React Application but JSX makes your code simpler and elegant. 
+
+There are some rules about JSX :
+
+   - class -> className
+   - for -> htmlFor
+   - camelCase property naming convension :
+        - onclick -> onClick
+        - tabindex -> tabIndex
