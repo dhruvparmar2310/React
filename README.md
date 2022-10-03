@@ -88,3 +88,41 @@ There are some rules about JSX :
 ## What is Props?
 
 Props stands for properties. Props are the arguments passed into React components.
+
+eg: if I wanna print list of Employee
+
+- Dhruv
+- Sina
+- Clark
+    
+Here props plays an important role. Make a component in src folder and create one .js file and write the below code.
+
+```
+import React from 'react'
+
+const Employee = props => {
+    //console.log(props);
+    //return <h1>Hello, Dhruv</h1>
+    return <h1>Hello, {props.name}, and your age is {props.age}</h1>
+}
+
+export default Employee
+```
+
+Now write the below code in "App.js" after importing "Employee.js" file in "App.js"
+```
+function App() {
+  return (
+    <div className="App">
+      {/* Demo of props */}
+      {/*<Employee />
+      <Employee />
+      <Employee /> */}
+      
+      <Employee name="Dhruv" age='21' />
+      <Employee name="Sina" age='34' />
+      <Employee name="Clark" age='15' />
+    </div>
+  );
+}
+```
