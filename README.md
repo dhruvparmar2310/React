@@ -35,3 +35,14 @@ npm start
 npm install create-react-app -g
 create-react-app <project-name>
 ```
+
+### Folder Structuring :
+---
+
+- "node_modules" : it contains all the dependency installed.
+- "public" : it contains three files 
+    - favicon.ico
+    - index.html (contains div with id="root")
+    - manifest.json
+- "src" : index.js (we speacify the root components which is <App /> component and DOM element which will be controlled by React.)
+
