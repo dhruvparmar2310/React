@@ -126,3 +126,21 @@ function App() {
   );
 }
 ```
+
+It will return only one element. If I wanna print the child element of first Employee then add this content in .js file which you have created...
+```
+const Employee = props => {
+    return (
+        <div>
+            <h1>Hello, {props.name}, and your age is {props.age}</h1>
+            {props.children}
+        </div>
+    )
+}
+```
+also add this content in App.js file
+```
+<Employee name="Dhruv" age='21'>
+    <p> You are from India.</p>
+</Employee>
+```
