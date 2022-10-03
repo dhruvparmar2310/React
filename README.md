@@ -55,16 +55,24 @@ create-react-app <project-name>
 
 1. Functional Component :
 
-- It is simple function.
-- use functional component as much as possible.
-- the main advantage to use functional component is "Absence of 'this' keyword".
-- It is mainly responsible for UI.
-- It is Stateless Component.
+    - It is simple function.
+    - use functional component as much as possible.
+    - the main advantage to use functional component is "Absence of 'this' keyword".
+    - It is mainly responsible for UI.
+    - It is Stateless Component.
 
 2. Class Component :
 
     - More feature rich.
     - It maintain their own private data.
     - It has complex UI logics
-- It provides lifecycle hooks.
-- It is Stateful Class.
+    - It provides lifecycle hooks.
+    - It is Stateful Class.
+   
+## What is Hooks?
+
+Hooks are the new feature proposal which lets you use states and other react features without writing a class.
+
+## What is JSX?
+
+Javascript XML (JSX) - it is the extension to Javascript language syntax.
