@@ -44,5 +44,6 @@ create-react-app <project-name>
     - favicon.ico
     - index.html (contains div with id="root")
     - manifest.json
-- "src" : index.js (we speacify the root components which is <App /> component and DOM element which will be controlled by React.)
+- "src" : index.js (we speacify the root components which is <App /> component and DOM element contain 'root' id which will be controlled by React.)
+- When we run "npm start" command in terminal, the browser will serve index.html present in "public" folder.
 
