@@ -84,3 +84,7 @@ There are some rules about JSX :
    - camelCase property naming convension :
         - onclick -> onClick
         - tabindex -> tabIndex
+
+## What is Props?
+
+Props stands for properties. Props are the arguments passed into React components.
