@@ -2,7 +2,8 @@
 
 - I have started learning React from the scratch from freeCodeCamp.org Youtube channel.
 - React Course - Beginner's Tutorial for React JavaScript Library [2022] | freeCodeCamp.org
-- I also prefer this channel as well "https://youtu.be/QFaFIcGhPoM"
+- I also prefer this channel as well [Codevolution
+](https://youtu.be/QFaFIcGhPoM)
 
 
 ## Why to learn React?
