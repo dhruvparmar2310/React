@@ -63,8 +63,8 @@ create-react-app <project-name>
 
 2. Class Component :
 
-- More feature rich.
-- It maintain their own private data.
-- It has complex UI logics
+    - More feature rich.
+    - It maintain their own private data.
+    - It has complex UI logics
 - It provides lifecycle hooks.
 - It is Stateful Class.
