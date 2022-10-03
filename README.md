@@ -1,0 +1,22 @@
+### React from the Scratch
+---
+
+- I have started learning React from the scratch from freeCodeCamp.org Youtube channel.
+- React Course - Beginner's Tutorial for React JavaScript Library [2022] | freeCodeCamp.org
+- I also prefer this channel as well "https://youtu.be/QFaFIcGhPoM"
+
+
+## Why to learn React
+---
+
+- It was created and maintained by Facebook.
+- Easy to reuse the code.
+- React is declarative (it tells you what you want and build the actual UI).
+
+## How to create react app
+---
+
+- Open the terminal after installing node
+- Type the below syntax:
+
+npx create-react-app your-project-name
