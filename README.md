@@ -1,3 +1,5 @@
+> Learn React with me and Buy a coffee for me | @dhruvparmar2310
+
 # React from the Scratch
 
 - I have started learning React from the scratch from freeCodeCamp.org Youtube channel.
