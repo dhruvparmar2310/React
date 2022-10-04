@@ -98,7 +98,7 @@ eg: if I wanna print list of Employee
     
 Here `props` plays an important role. Make a component in src folder and create one .js file and write the below code.
 
-```
+```javascript
 import React from 'react'
 
 const Employee = props => {
@@ -129,7 +129,7 @@ function App() {
 ```
 
 It will return only one element. If I wanna print the child element of first Employee then add this content in .js file which you have created...
-```
+```javascript
 const Employee = props => {
     return (
         <div>
@@ -151,7 +151,7 @@ also add this content in App.js file
 React component as a built-in `state` object. The `state` object is where you store property values that belongs to the component. When the `state` object changes, the component re-renders. `state` is managed within the components. `state` can be changed but `props` cannot be changed because `props` is immutable.
 
 Create one class constructor, add the below code in class component.
-```
+```javascript
 constructor(){
     super()
     //create a state empty object
@@ -164,7 +164,7 @@ constructor(){
 ### How to call setState() method
 ---
 
-```
+```javascript
 class Subscribe extends Component{
 
     constructor(){
