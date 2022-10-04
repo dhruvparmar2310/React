@@ -192,4 +192,3 @@ class Subscribe extends Component{
     }
 }
 ```
-
