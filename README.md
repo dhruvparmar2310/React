@@ -162,4 +162,34 @@ constructor(){
 ```
 
 ### How to call setState() method
+---
+
+```
+class Subscribe extends Component{
+
+    constructor(){
+        super()
+        this.state = {
+            message: 'Welcome to my Youtube Channel'
+        }
+    }
+
+    changeMessage(){
+        //calling setState() method, which accepts an object, which is nothing but new state of the component.
+        this.setState({
+            message: 'Thank you for Subscibing...'
+        })
+    }
+    render(){
+        //demo of state
+        return(
+            <>
+                <span>Dhruv Parmar</span>
+                <h3>{this.state.message}</h3>  
+                <button onClick={ () => this.changeMessage() }>Subscribe</button>
+            </>
+        ) 
+    }
+}
+```
 
