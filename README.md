@@ -160,3 +160,6 @@ constructor(){
     }
 }
 ```
+
+### How to call setState() method
+
