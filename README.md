@@ -88,7 +88,7 @@ There are some rules about JSX :
 
 ## What is Props?
 
-Props stands for properties. Props are the arguments passed into React components.
+`props` stands for properties. `props` are the arguments passed into React components.
 
 eg: if I wanna print list of Employee
 
@@ -96,7 +96,7 @@ eg: if I wanna print list of Employee
 - Sina
 - Clark
     
-Here props plays an important role. Make a component in src folder and create one .js file and write the below code.
+Here `props` plays an important role. Make a component in src folder and create one .js file and write the below code.
 
 ```
 import React from 'react'
@@ -145,3 +145,7 @@ also add this content in App.js file
     <p> You are from India.</p>
 </Employee>
 ```
+
+## What is State?
+
+React component as a built-in `state` object. The `state` object is where you store property values that belongs to the component. When the `state` object changes, the component re-renders. `state` is managed within the components. `state` can be changed but `props` cannot be changed because `props` is immutable.
