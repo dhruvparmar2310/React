@@ -177,7 +177,7 @@ class Subscribe extends Component{
     }
 
     changeMessage(){
-        //calling setState() method, which accepts an object, which is nothing but new state of the component.
+        //calling setState() method, which accepts an object, which is nothing but new state of the component. It has can have two parameters, first will accept the object and another will be `callback` function.
         this.setState({
             message: 'Thank you for Subscibing...'
         })
