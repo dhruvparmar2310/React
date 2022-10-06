@@ -204,10 +204,10 @@ class Subscribe extends Component{
 It is one of the feature of ES6, which unpacks the values from array or properties from an object into distinct variables. In react, destructuring of `props` and `state` improves code readablity. 
 
 There are two ways of destructuring:
-- by parameter
-- by ...
+- in parameter
+- in the function body 
 
-### 1. By Paramter
+### 1. In Paramter
 ---
 
 - There is no need of writing props.name while destructuring.
@@ -230,3 +230,17 @@ and add the element in `App.js`, as given below
 <Greet name='Sina' occupation='Youtuber of Advance Javascript' />
 ```
 
+### 2. In the function body
+---
+
+It is quite similar to first method, after watching the demo you will come to know the difference.
+```javascript
+const Greet = props => {
+    const {name, occupation} = props
+    return(
+        <div className='container'>
+            <p>Hello, I am <span className='heading'>{name}</span> and I'm a <span className='heading'>{occupation}</span> </p>
+        </div>
+    )
+}
+```
