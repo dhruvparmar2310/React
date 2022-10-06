@@ -47,7 +47,28 @@ create-react-app <project-name>
     - index.html (contains div with id="root")
     - manifest.json
 - "src" : index.js (we speacify the root components which is named as <App /> component and DOM element contain 'root' id which will be controlled by React.)
-- When we run "npm start" command in terminal, the browser will serve index.html present in "public" folder.
+
+## Package.json
+
+It is an config file of React. It contains keywords, license, author, version, name, dependencies and many more...
+To create `package.json` file run the below command.
+```
+npm init
+```
+to modify the version, name or author anything. run the below command as shown in example.
+```
+npm config set init.author Dhruv Parmar
+npm config set init.license MIT
+rm package.json
+npm init --y
+```
+Here `rm package.json` is used to remove old file.
+
+## How to start the server:
+- When we run `npm start` command in terminal, the browser will serve index.html present in "public" folder.
+```
+npm start
+```
 
 ## Types of Component:
 
