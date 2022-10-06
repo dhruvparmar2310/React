@@ -201,4 +201,31 @@ class Subscribe extends Component{
 
 ## What is Destructuring of props and state ?
 
-It is one of the feature of ES6, which unpacks the values from array or properties from an object into distinct variables. In react, destructuring of `props` and `state` improves code readablity.
+It is one of the feature of ES6, which unpacks the values from array or properties from an object into distinct variables. In react, destructuring of `props` and `state` improves code readablity. 
+
+There are two ways of destructuring:
+- by parameter
+- by ...
+
+### 1. By Paramter
+
+- There is no need of writing props.name while destructuring.
+- Here, basically we are abstracting the name and occupation from the props object.
+- In JSX, we can use {name} and {occupation} instead of {props.name} and {props.occupation} directly respectively.
+
+Create one functional component and write the below code:
+```javascript
+const Greet = ({name,occupation}) => {
+  return (
+    <div className='container'>
+      <p>Hello, I am <span className='heading'>{name}</span> and I'm a <span className='heading'>{occupation}</span> </p>
+    </div>
+  )
+}
+```
+and add the element in `App.js`, as given below
+```
+<Greet name='Dhruv Parmar' occupation='Jr.Web Developer' />
+<Greet name='Sina' occupation='Youtuber of Advance Javascript' />
+```
+
