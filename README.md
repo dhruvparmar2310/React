@@ -1,4 +1,4 @@
-> Learn React with me and Buy a coffee for me | @dhruvparmar2310
+> Learn React with me and Buy a coffee for me | [@dhruvparmar2310](https://github.com/dhruvparmar2310)
 
 # React from the Scratch
 
