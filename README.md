@@ -198,3 +198,7 @@ class Subscribe extends Component{
     }
 }
 ```
+
+## What is Destructuring of props and state ?
+
+It is one of the feature of ES6, which unpacks the values from array or properties from an object into distinct variables. In react, destructuring of `props` and `state` improves code readablity.
