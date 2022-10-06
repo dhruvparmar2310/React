@@ -51,6 +51,7 @@ create-react-app <project-name>
 ## Package.json
 
 It is an config file of React. It contains keywords, license, author, version, name, dependencies and many more...
+Also refer the official documentation of `package.json` -> [Package.json](https://docs.npmjs.com/cli/v8/configuring-npm/package-json)
 To create `package.json` file run the below command.
 ```
 npm init
