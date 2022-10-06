@@ -150,7 +150,7 @@ also add this content in App.js file
 
 ## What is State?
 
-React component as a built-in `state` object. The `state` object is where you store property values that belongs to the component. When the `state` object changes, the component re-renders. `state` is managed within the components. `state` can be changed but `props` cannot be changed because `props` is immutable.
+React component as a built-in `state` object. The `state` object is where you store property values that belongs to the component. When the `state` object changes, the component re-renders. `state` is managed within the components. `state` can be changed but `props` cannot be changed because `props` is immutable. Always use the `setState()` method, never try to modify the `state` directly.
 
 Create one class constructor, add the below code in class component.
 ```javascript
