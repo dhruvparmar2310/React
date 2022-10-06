@@ -208,6 +208,7 @@ There are two ways of destructuring:
 - by ...
 
 ### 1. By Paramter
+---
 
 - There is no need of writing props.name while destructuring.
 - Here, basically we are abstracting the name and occupation from the props object.
