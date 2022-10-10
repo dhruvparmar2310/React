@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding-top: 30px;
+}
+
+.container .todo-list{
+    border: none;
+    padding: 30px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0 0 25px #000;
+    background-color: rgba(119, 0, 205, 0.89);
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container h1{
+    color: rgba(119, 0, 205, 0.89);
+    font-weight: 900;
+    font-family: 'Itim';
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    text-shadow: -5px 5px 5px #101010;
+    text-align: center;
+}
+.container h1::after{
+    content: '';
+    display: block;
+    width: 35%;
+    height: 3px;
+    background-color: rgba(119, 0, 205, 0.89);
+    box-shadow: -5px 5px 5px #101010;
+    position: relative;
+    margin: 0 auto;
+    bottom: -5px;
+}
+
+input[type=text]{
+    background-color: rgba(115, 7, 192, 0.856); 
+    border: none;
+    box-shadow: inset 0 0 5px #222;
+}
+
+input[type=text]::placeholder{
+    color: #e9e9e9;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.container .todoTask{
+    margin-top: 10px;
+    padding: 10px 15px 0 15px;
+}
+
+.container li{
+    color: #e9e9e9;
+    font-family: 'Itim';
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.fa-trash{
+    font-size: 20px;
+}
+
+.btn-outline-danger{
+    padding: 8px 1px !important;
+    height: 25%;
+    width: 10% !important;
+}
