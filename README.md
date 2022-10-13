@@ -97,7 +97,12 @@ npm start
    
 ## What is Hooks?
 
-Hooks are the new feature proposal which lets you use states and other react features without writing a class.
+Hooks are the new feature proposal which lets you use states and other react features without writing a class. React Hooks are a function type that allows you to hook into React state and lifecycle features. Previously, If you write a function component and notice that you need to apply some state to it all you have to do is, change that functional component into a class. But with the new update, you can just use a Hook inside the function component, making the refactoring procedure easy.
+
+Also Refer : 
+
+- [Types of Hooks in React Js](https://enlear.academy/types-of-react-hooks-best-practices-45c275b55b1f) 
+- [useForm](https://react-hook-form.com/) | Type of Hook
 
 ## What is JSX?
 
