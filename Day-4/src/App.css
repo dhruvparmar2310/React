@@ -1,0 +1,10 @@
+.app{
+  padding: 30px;
+}
+
+summary{
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
