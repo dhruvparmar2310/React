@@ -1,0 +1,100 @@
+
+.form{
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 30px;
+  width: 50% !important;
+  border-radius: 10px;
+}
+
+.details{
+  width: 50% !important;
+  padding: 30px;
+}
+
+h2, h4{
+  text-align: center;
+}
+
+.underline{
+  content: '';
+  display: block;
+  width: 20%;
+  height: 2px;
+  position: absolute;
+  left: 40%;
+  background-color: black;
+}
+
+.underline-2{
+  content: '';
+  display: block;
+  width: 20%;
+  height: 2px;
+  position: absolute;
+  left: 40%;
+  top: 5px;
+  background-color: black;
+}
+
+.details .underline{
+  content: '';
+  display: block;
+  width: 10%;
+  height: 2px;
+  position: absolute;
+  left: 45%;
+  background-color: black;
+}
+
+.details .underline-2{
+  content: '';
+  display: block;
+  width: 20%;
+  height: 2px;
+  position: absolute;
+  left: 40%;
+  top: 5px;
+  background-color: black;
+}
+
+.table{
+  max-width: calc(100% - 10px);
+  width: 80% !important;
+  font-size: 1.19rem;
+  margin: 0 auto;
+}
+
+.details .table, .details .table th, .details .table td{
+  border: 1px solid #000;
+  text-align: center;
+  padding: 5px;
+}
+
+.details .table{
+  width: auto !important;
+}
+
+input{
+  background-color: rgba(0, 94, 46, 0.769) !important;
+  padding: 0;
+  color: white !important;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+input::placeholder{
+  font-style: italic;
+  color: #fdfdfd97 !important;
+}
+
+button{
+  width: 10%;
+  padding: 3px 10px !important;
+  background-color: #000 !important;
+  border: none;
+  border-radius: 8px !important;
+  color: #fff;
+  display: block;
+  margin: 0 auto !important;
+}
