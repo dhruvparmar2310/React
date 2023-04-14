@@ -7,6 +7,31 @@
 - I also prefer this channel as well [Codevolution
 ](https://youtu.be/QFaFIcGhPoM)
 
+## What is ReactJs?
+ReactJs is a Javascript library and it is maintained by Facebook in 2011. It was released by May, 2013. According to Jordan Walke, React is an efficient, declarative, and flexible open-source JavaScript library for building simple, fast, and scalable frontends of web applications.
+
+It is used for developing complex and interactive web and mobile UI. It follows the component based approach which helps in building reusable UI components. 
+
+**Features:**
+- It uses the virtual DOM instead of the real DOM.
+- It uses Server Side Rendering.
+- It follows uni-directional data flow or data binding.
+- Because of JSX, code’s readability increases.
+
+## What is Real Dom and Virtual Dom?
+Real DOM:
+-  It updates slow.
+- Can directly update HTML.
+- Creates a new DOM if element updates.
+- DOM manipulation is very expensive.
+- Too much of memory wastage.
+
+Virtual DOM:
+- It updates faster.
+- Can’t directly update HTML.
+- Updates the JSX if element updates.
+- DOM manipulation is very easy.
+- No memory wastage.
 
 ## Why to learn React?
 
@@ -106,7 +131,7 @@ Also Refer :
 
 ## What is JSX?
 
-Javascript XML (JSX) - it is the extension to Javascript language syntax. JSX tags as a tag name, attributes and children. It is not necessary to write React Application but JSX makes your code simpler and elegant. 
+JavaScript XML (JSX) - it is the extension to Javascript language syntax. JSX tags as a tag name, attributes and children. It is not necessary to write React Application but JSX makes your code simpler and elegant. Where XML is Extensible Markup Language.
 
 There are some rules about JSX :
 
